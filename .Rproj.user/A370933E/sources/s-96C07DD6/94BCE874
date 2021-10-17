@@ -1,0 +1,24 @@
+{
+    "id": "94BCE874",
+    "path": "~/git/whitepaper/widget.R",
+    "project_path": "widget.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1634504868143.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "cursorPosition": "228,35",
+        "scrollLine": "217"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1634508037,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1634508037611,
+    "read_only": false,
+    "read_only_alternatives": []
+}
