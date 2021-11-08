@@ -1,0 +1,13 @@
+name: siting-opt-and-stranded-assets
+title: siting-opt-and-stranded-assets
+username:
+account: bk-apps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4946858
+bundleId: 5224798
+url: https://bk-apps.shinyapps.io/siting-opt-and-stranded-assets/
+when: 1636331289.78108
+lastSyncTime: 1636331289.7811
+asMultiple: FALSE
+asStatic: FALSE
