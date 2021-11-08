@@ -44,3 +44,6 @@ vignettes/*.pdf
 
 # System files
 *.DS_Store
+
+# RS Connect
+rsconnect/*
