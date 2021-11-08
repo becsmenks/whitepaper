@@ -18,6 +18,7 @@ library(shiny)
 library(shinydashboard)
 library(plotly)
 library(ggimage)
+library(tableHTML)
 
 # B - Define Filepaths ----------------------------------------------------
 

@@ -46,7 +46,7 @@ ui <- dashboardPage(
   skin = 'green',
   dashboardHeader(
     # Application Title
-    title = "VAST Siting Optimization and Stranded Assets",
+    title = "VAST™ Suite Network Cost Comparison Module",
     titleWidth = 450
   ),
   dashboardSidebar(
@@ -112,27 +112,45 @@ ui <- dashboardPage(
                 choices = group_var_choices),
     selectInput(inputId = 'select_group_op',
                 label = "Summary operator:",
-                choices = operator_choices)
+                choices = operator_choices),
+    
+    tags$style(make_css(list('.box', 'color', 'black'))),
+    h3("Contacts"),
+    box(
+      width=8,
+      HTML(
+        'Scott Robinson, <a href="mailto:scott.robinson@guidehouse.com">email</a>'
+      ),
+      br(),
+      HTML(
+        'Becca Kuss, <a href="https://www.linkedin.com/in/beccamenke">LinkedIn</a>'
+      ),
+      br(),
+      HTML(
+        'Kofi Owusu Agyeman, <a href="mailto:kowusuagyeman@guidehouse.com">email</a>'
+      )
+    )
+
   ),
   dashboardBody(
     fluidRow(
       box(
         width = 12,
-        h3("Dashboard Overview and Methodology"),
+        h3("Comparing EV Costs: Larger Batteries, or Better Charging Networks"),
         HTML("The development of the charging network depends on the need for
         charging. This depends on many factors, but the most obvious is the
         vehicle range. If a vehicle has a larger battery and longer range, it
         has a lower reliance on charging infrastructure to complete its trips.
-        This dashboard examines a hypothetical model network and how it might
-        meet the needs of its drivers with either longer range vehicles or
-        denser charging infrastructure."),
+        This dashboard allows you to design a hypothetical model network of
+        chargers and vehicles using <b>simple input parameters that you can toggle
+        in the sidebar to the right</b>."),
         br(),
         br(),
         HTML("To compare the cost tradeoffs between batteries and charging
         infrastructure, we consider a number of parameters that define a
-        network: network distance, vehicle range, vehicles per charger, and
-        chargers per charging site. We also consider market parameters including
-        battery costs and charger installation costs. The inputs in the sidebar
+        network: <b>network distance, vehicle range, vehicles per charger, and
+        chargers per charging site</b>. We also consider market parameters including
+        <b>battery costs and charger installation costs</b>. The inputs in the sidebar
         allow the user to adjust these parameters and see the impact on the
         network."),
         br(),
